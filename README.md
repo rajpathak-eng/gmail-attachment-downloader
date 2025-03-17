@@ -19,7 +19,7 @@ I needed to process 200+ starred emails in a client's Gmail account, download al
 
 1. Clone this repository:
 ```
-git clone https://github.com/YOUR_USERNAME/gmail-attachment-downloader.git
+git clone https://github.com/rajpathak-eng/gmail-attachment-downloader.git
 cd gmail-attachment-downloader
 ```
 
@@ -55,7 +55,7 @@ python gmail_downloader.py --image-only
 
 Limit number of emails to process:
 ```
-python gmail_downloader.py --max-emails=50
+python gmail_downloader.py --max-emails=500
 ```
 
 ## How It Works
@@ -74,10 +74,6 @@ The script:
 - Google API client libraries
 - Pandas
 - BeautifulSoup4
-
-## License
-
-[Include your chosen license here]
 
 ## Disclaimer
 
